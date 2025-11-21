@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data
+data/**/*.csv
+data/**/*.json
+data/**/*.txt
+!data/train.csv
+!data/test.csv
+
+# Model caches
+.lizard_cache/
+*.pt
+*.bin
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
