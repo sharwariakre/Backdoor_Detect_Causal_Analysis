@@ -1,29 +1,55 @@
-# Python
+# --------------------------
+# Ignore entire data folder
+# --------------------------
+data/*
+
+# Allow the causal_analysis folder itself
+!data/causal_analysis/
+
+# Track ONLY the required deliverables for Gradescope
+!data/causal_analysis/causal_data.csv
+!data/causal_analysis/causal_effects.csv
+
+# If your model accidentally writes anything else there, ignore it:
+data/causal_analysis/*.*
+
+# Allow the folder but override ignore for the 2 required files
+!data/causal_analysis/
+!data/causal_analysis/causal_data.csv
+!data/causal_analysis/causal_effects.csv
+
+# --------------------------
+# Ignore train/test datasets 
+# --------------------------
+data/train.csv
+data/test.csv
+
+# --------------------------
+# Virtual environment
+# --------------------------
+.venv/
+env/
+venv/
+
+# --------------------------
+# Python cache
+# --------------------------
 __pycache__/
 *.pyc
 *.pyo
 
-# Virtual env
-.venv/
-
-# Jupyter checkpoints
+# --------------------------
+# Jupyter
+# --------------------------
 .ipynb_checkpoints/
 
-# Data
-data/**/*.csv
-data/**/*.json
-data/**/*.txt
-!data/train.csv
-!data/test.csv
-
-# Model caches
-.lizard_cache/
-*.pt
-*.bin
-
+# --------------------------
 # VS Code
+# --------------------------
 .vscode/
 
-# OS
+# --------------------------
+# System files
+# --------------------------
 .DS_Store
 Thumbs.db
