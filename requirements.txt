@@ -10,3 +10,5 @@ statsmodels
 scipy
 matplotlib
 networkx
+scikit-learn>=1.5.0
+seaborn>=0.12.0

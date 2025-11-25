@@ -30,6 +30,7 @@ data/test.csv
 .venv/
 env/
 venv/
+newenv/
 
 # --------------------------
 # Python cache

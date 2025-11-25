@@ -1,5 +1,0 @@
-metric,method,value,refuted_value
-ATE,linear_regression,-0.49156666666686777,
-refutation,random_common_cause,,-0.4915691071481967
-refutation,placebo_treatment,,-0.00014433073726697276
-refutation,data_subset,,-0.49146157356809944
