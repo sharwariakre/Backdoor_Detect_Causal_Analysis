@@ -5,10 +5,10 @@ torch
 transformers
 sentence-transformers
 lizard
-dowhy
+dowhy==0.8
 statsmodels
 scipy
 matplotlib
-networkx
+networkx==2.8.8
 scikit-learn>=1.5.0
 seaborn>=0.12.0

@@ -31,6 +31,7 @@ data/test.csv
 env/
 venv/
 newenv/
+py310/
 
 # --------------------------
 # Python cache
